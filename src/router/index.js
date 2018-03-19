@@ -2,7 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import IndexComponent from '@/components/index'
+// ceshi
 import headerComponent from '@/components/common/header'
+import titleComponent from '@/components/common/title_np'
 Vue.use(Router)
 
 export default new Router({
@@ -17,6 +19,11 @@ export default new Router({
       path: '/header',
       name: 'headerComponent',
       component: headerComponent
+    },
+     {
+      path: '/tl',
+      name: 'titleComponent',
+      component: titleComponent
     }
   ]
 })
