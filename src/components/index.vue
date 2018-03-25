@@ -1,4 +1,4 @@
-<template>
+﻿<template>
 <div>
 <headerComponent></headerComponent>
 <ul>
@@ -19,8 +19,8 @@ export default {
       titleComponent 
   },
   data:function(){
-      return {msg:"这是首页",
-      list:[1,2,3]
+      return {msg:"这是首页222",
+      list:[1,2,3,4]
       }
   }
 }
